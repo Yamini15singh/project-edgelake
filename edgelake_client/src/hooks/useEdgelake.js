@@ -79,7 +79,7 @@ export function useEdgelake(pollInterval = 10000) {
   const [isLocalAvailable, setIsLocalAvailable] = useState(false);
 
   // Replace this IP with your actual local IP if needed
-  const LOCAL_PING_URL = 'http://192.168.94.232:8080/ping';
+  const LOCAL_PING_URL = 'http://192.168.1.12:8080/ping';
 
   const checkEdgelakeAvailability = async () => {
     try {

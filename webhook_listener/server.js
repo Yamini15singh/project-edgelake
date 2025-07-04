@@ -15,7 +15,7 @@ app.post('/webhook', (req, res) => {
 
   if (event === 'push' && ref === 'refs/heads/main') {
     console.log('🔁 GitHub push detected on main — rebuilding...');
-    exec('sh /Users/yaminisingh/project_edgelake/rebuild.sh', (err, stdout, stderr) => {
+    exec('sh /Users/yaminisingh/project_edgelake/deploy_supabase.sh', (err, stdout, stderr) => {
       if (err) {
         console.error(`❌ Error: ${stderr}`);
       } else {

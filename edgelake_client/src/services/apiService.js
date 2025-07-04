@@ -29,7 +29,7 @@ class ApiService {
 
   async request(endpoint, options = {}) {
     const baseUrl = this.local
-      ? 'http://192.168.94.232:8080'  // ✅ your Wi-Fi IP here
+      ? 'http://192.168.1.12:8080'  // ✅ your Wi-Fi IP here
       : 'https://your-cloud-api.com';
 
     const response = await fetch(`${baseUrl}${endpoint}`, options);

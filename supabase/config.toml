@@ -1,17 +1,10 @@
+project_id = "local"
 
-project_id = "tmffcijysdajfwyoqvuh"
+[api]
+port = 54321
 
-[functions.chat]
-verify_jwt = true
+[db]
+port = 54322
 
-[functions.get-mapbox-token]
-verify_jwt = false
-
-[functions.chatlifeatlas]
-verify_jwt = true
-
-[functions.send-feedback]
-verify_jwt = true
-
-[build.environment]
-NODE_VERSION = "18"
+[studio]
+port = 54323

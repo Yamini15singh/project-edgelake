@@ -123,5 +123,5 @@ app.get('/api/users', (req, res) => {
 });
 
 app.listen(port, '0.0.0.0', () => {
-  console.log(`✅ EdgeLake API running with SQLite on port ${port}`);
+  console.log(`✅ EdgeLake API running on the port ${port}`);
 });

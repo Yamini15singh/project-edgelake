@@ -102,7 +102,7 @@ function App() {
 
   return (
     <main style={{ padding: '2rem' }}>
-      <h1>🧠 EdgeLake User Portal</h1>
+      <h1>EdgeLake User Portal</h1>
       <p>Mode: {isLocal ? '🟢 Local Edge' : '☁️ Cloud'}</p>
 
       <div style={{ marginBottom: '1rem' }}>
